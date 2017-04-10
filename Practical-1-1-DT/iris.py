@@ -93,7 +93,7 @@ def challenge_dataset():
 
 	Go to http://scikit-learn.org/stable/datasets/ and select the load_digits() 
 	dataset, as it is also a classification problem. If you really want a challenge, 
-	select the boston or diabetes dataset and use the skikit LinearRegression class/package.
+	select the diabetes dataset.
 
 	Like the iris dataset, these sets can be retrieved through the sklearn.datasets class
 	by one simple function call to the relevant dataset.
