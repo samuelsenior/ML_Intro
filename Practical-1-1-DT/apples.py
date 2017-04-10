@@ -5,6 +5,8 @@
 """
 import numpy as np
 from sklearn import tree
+import pydotplus
+import io
 
 
 def apples_oranges():
@@ -61,7 +63,10 @@ def apples_oranges():
 
 
 def print_out_tree(clf):
-    tree.export_graphviz(clf, out_file='tree.dot') 
+    dot_data = io.StringIO()
+    tree.export_graphviz(clf, out_file=dot_data, feature_names=['Weight', 'Texture'])
+    graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
+    graph.write_png('tree.png')
     
 
 
