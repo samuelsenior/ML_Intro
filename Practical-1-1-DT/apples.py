@@ -20,7 +20,7 @@ def apples_oranges():
     """
     in features:
         - index 0 : weight of the fruit (g)
-        - index 1 : (texture of fruit) binomial, 0 = bumpy fruit, 1 = smooth fruit
+        - index 1 : (texture of fruit) binary, 0 = bumpy fruit, 1 = smooth fruit
     in labels :
         - 0 = apple
         - 1 = orange
