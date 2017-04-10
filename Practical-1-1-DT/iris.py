@@ -42,7 +42,7 @@ def iris_dataset_2():
 	Task 1 - Implement the above function (iris_dataset) using the train_test_split()
 	function instead of just randomly getting some integers. 
 
-	the import package you want is - 'from sklearn.cross_validation import train_test_split'
+	the import package you want is - 'from sklearn.model_selection import train_test_split'
 
 	Then look up the function, its inputs and outputs, and use it to generate your
 	training and testing data. Split the dataset 50/50 (75 training, 75 testing).
