@@ -4,5 +4,5 @@ An introduction to Machine Learning using Python. Part of FEEG6003 Advanced Comp
 # Requirements
 * Anaconda (available from here: https://www.continuum.io/downloads )
 * Graphvis (available from here: http://www.graphviz.org )
-* Git
-* TensorFlow
+* Git (available from here: https://git-scm.com )
+* TensorFlow (available from here: https://www.tensorflow.org )
