@@ -4,6 +4,8 @@ An introduction to Machine Learning using Python. Part of FEEG6003 Advanced Comp
 # Requirements
 * Anaconda (available from here: https://www.continuum.io/downloads )
 * Git (available from here: https://git-scm.com )
-* Scikit-learn ( http://scikit-learn.org ), comes with Anaconda but can also be installed via pip
-* TensorFlow ( https://www.tensorflow.org ), can be installed via pip
-* Graphvis ( http://www.graphviz.org ), can be installed via pip
+* Scikit-learn ({http://scikit-learn.org}), comes with Anaconda but can also be installed via pip
+* TensorFlow (<https://www.tensorflow.org>), can be installed via pip
+* Graphvis ( http://www.graphviz.org}), can be installed via pip
+
+# Extra Resources
